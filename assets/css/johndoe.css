@@ -8979,6 +8979,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  text-align: center;
 }
 
 .ml-5,
@@ -11161,6 +11162,9 @@ p {
 .price-card.price-card-requried .num {
   color: #F85C70;
 }
+.portfolio {
+  margin-top: -30px;
+}
 
 .portfolio .filters {
   border-bottom: 2px solid #dee2e6;
@@ -11508,7 +11512,7 @@ pre .code {
 .header {
   position: relative;
   height: 80vh;
-  min-height: 600px;
+  min-height: 400px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-size: cover;
@@ -11603,7 +11607,7 @@ pre .code {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 .section.bg-custom-gray {
@@ -11684,4 +11688,8 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+.download-resume{
+  color: white;
 }
