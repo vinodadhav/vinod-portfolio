@@ -42,13 +42,13 @@
                     <a href="social_media.html" class="social_media_post">
                         Social Media Posts
                     </a>
-                    <a href="#" data-filter=".banners">
+                    <a href="#" data-filter=".banners" class="banners">
                         Banners
                     </a>
                     <a href="emailer.html" data-filter=".emailers" class="emailer">
                         Emailers
                     </a>
-                    <a href="#" data-filter=".ads">
+                    <a href="#" data-filter=".ads" class="ads">
                         Ads
                     </a>
                     <a href="#" data-filter=".bloggers" class="blogger">
@@ -103,6 +103,12 @@
         });
         $('.blogger').click(function() {
             document.location = 'blogger.html'; 
+        });
+        $('.banners').click(function() {
+            document.location = 'banner.html'; 
+        });
+        $('.ads').click(function() {
+            document.location = 'ads.html'; 
         });
     </script>
 </body>
