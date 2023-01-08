@@ -10829,6 +10829,10 @@ a.text-danger:hover, a.text-danger:focus {
   color: #f8f9fa !important;
 }
 
+.text-light-active {
+  color: #a0a5ab !important;
+}
+
 a.text-light:hover, a.text-light:focus {
   color: #cbd3da !important;
 }
@@ -11387,11 +11391,12 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 180px;
+  /* max-width: 180px; */
 }
 
 .social-icons .social-link {
   font-size: 18px;
+  padding-right: 20px;
 }
 
 .social-icons .social-link:hover {
@@ -11511,7 +11516,7 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
+  height: 70vh;
   min-height: 400px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);

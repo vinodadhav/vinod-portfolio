@@ -16,11 +16,46 @@
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                <li class="social-item">
+                    <a href="#" class="social-link text-light-active home">
+                        Home
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link text-light social_media_post">
+                        Social Media Posts
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" data-filter=".banners" class="social-link text-light banners">
+                        Banners
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="emailer.html" data-filter=".emailers" class="social-link text-light emailer">
+                        Emailers
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" data-filter=".ads" class="social-link text-light ads">
+                        Ads
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" data-filter=".bloggers" class="social-link text-light blogger">
+                        Bloggers Page
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" data-filter=".print_work" class="social-link text-light print_work">
+                        Print Work
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" data-filter=".web" class="web social-link text-light website_design">
+                        Website Design
+                    </a>
+                </li>
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
@@ -34,7 +69,7 @@
         </div>
     </header>
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
+    <!-- <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
@@ -66,7 +101,7 @@
                 </div>
             </div>  
         </div>            
-    </section>
+    </section> -->
     <!-- End of portfolio section -->
 
 
@@ -94,22 +129,6 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
-    <script>
-        $('.social_media_post').click(function() {
-            document.location = 'social_media.html'; 
-        });
-        $('.emailer').click(function() {
-            document.location = 'emailer.html'; 
-        });
-        $('.blogger').click(function() {
-            document.location = 'blogger.html'; 
-        });
-        $('.banners').click(function() {
-            document.location = 'banner.html'; 
-        });
-        $('.ads').click(function() {
-            document.location = 'ads.html'; 
-        });
-    </script>
+    
 </body>
 </html>

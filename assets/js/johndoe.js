@@ -148,3 +148,29 @@ function initMap() {
       ]
     });
 }
+
+
+$('.home').click(function() {
+	document.location = 'index.html'; 
+});
+$('.social_media_post').click(function() {
+	document.location = 'social_media.html'; 
+});
+$('.emailer').click(function() {
+	document.location = 'emailer.html'; 
+});
+$('.blogger').click(function() {
+	document.location = 'blogger.html'; 
+});
+$('.banners').click(function() {
+	document.location = 'banner.html'; 
+});
+$('.ads').click(function() {
+	document.location = 'ads.html'; 
+});
+$('.print_work').click(function() {
+	document.location = 'print_work.html'; 
+});
+$('.website_design').click(function() {
+	document.location = 'website_design.html'; 
+});
