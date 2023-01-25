@@ -11698,3 +11698,7 @@ pre .code {
 .download-resume{
   color: white;
 }
+
+html,body{
+  overflow-x: hidden;
+}
