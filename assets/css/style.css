@@ -55,6 +55,10 @@ h6 {
   line-height: 0;
 }
 
+.resume a{
+  color: #149ddd;
+  text-align: center;
+}
 .back-to-top:hover {
   background: #2eafec;
   color: #fff;

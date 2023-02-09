@@ -71,6 +71,10 @@
     })
   }
 
+  
+  console. log('jQuery(). jquery');
+  console. log(jQuery(). jquery);
+
 
   // protfolio filters
 $(window).on("load", function() {
